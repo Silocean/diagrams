@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-10T10:16:08.550Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="qmPNQvWjfQLjS9DAWgCg" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-11T01:46:34.089Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Nod435b9BHVCndB5Qy4j" version="17.4.3" type="github">
   <diagram id="e1PoTqiXiB5KBp0_M16g" name="Page-1">
-    <mxGraphModel dx="951" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,7 +52,7 @@
             <mxPoint x="540" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jMKMErfgYeSf4tvzDP7Q-19" value="V=X, R={rds_name}, N=A, T=RDS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;" vertex="1" parent="1">
+        <mxCell id="jMKMErfgYeSf4tvzDP7Q-19" value="V=X, R={rds_name}, N=A, T=RDS (ACK)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="330" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jMKMErfgYeSf4tvzDP7Q-20" value="" style="endArrow=classic;html=1;rounded=0;comic=1;" edge="1" parent="1">
@@ -79,7 +79,7 @@
         <mxCell id="jMKMErfgYeSf4tvzDP7Q-24" value="V=Y, R={eds_name:...}, N=B, T=EDS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="450" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jMKMErfgYeSf4tvzDP7Q-25" value="V=Y, R={eds_name}, N=B, T=EDS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;" vertex="1" parent="1">
+        <mxCell id="jMKMErfgYeSf4tvzDP7Q-25" value="V=Y, R={eds_name}, N=B, T=EDS (ACK)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="490" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jMKMErfgYeSf4tvzDP7Q-26" value="" style="endArrow=classic;html=1;rounded=0;comic=1;" edge="1" parent="1">
@@ -100,7 +100,7 @@
         <mxCell id="jMKMErfgYeSf4tvzDP7Q-30" value="V=C, R={rds_name:...}, N=K, T=RDS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="610" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jMKMErfgYeSf4tvzDP7Q-31" value="V=C, R={rds_name}, N=K, T=RDS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;" vertex="1" parent="1">
+        <mxCell id="jMKMErfgYeSf4tvzDP7Q-31" value="V=C, R={rds_name}, N=K, T=RDS (ACK)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="650" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jMKMErfgYeSf4tvzDP7Q-32" value="" style="endArrow=classic;html=1;rounded=0;comic=1;" edge="1" parent="1">
@@ -121,7 +121,7 @@
         <mxCell id="jMKMErfgYeSf4tvzDP7Q-35" value="V=Z, R={eds_name:...}, N=S, T=EDS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="690" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jMKMErfgYeSf4tvzDP7Q-36" value="V=Z, R={eds_name}, N=S, T=EDS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;" vertex="1" parent="1">
+        <mxCell id="jMKMErfgYeSf4tvzDP7Q-36" value="V=Z, R={eds_name}, N=S, T=EDS (ACK)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="730" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
